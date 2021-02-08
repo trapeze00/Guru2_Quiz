@@ -32,6 +32,5 @@ class MainActivity : AppCompatActivity() {
             var intent = Intent(this, pageQuizPaper::class.java)
             startActivity(intent)
         }
-
     }
 }

@@ -14,7 +14,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:text="Q.영수증과 전단지는 종이류로 분리배출이 가능하다"/>
+        android:text="Q.영수증과 전단지는 종이류로 분리배출이 가능하다."/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,26 +23,30 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/Quiz1PaperO"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="80dp"
             android:text="O"/>
 
         <Button
+            android:id="@+id/Quiz1PaperX"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="80dp"
             android:text="x"/>
     </LinearLayout>
 
-    <EditText
+    <TextView
+        android:id="@+id/Quiz1PaperAns"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
         android:visibility="invisible"
-        android:text="정답은 (X) 영수증은 일반쓰레기로 배출해야 합니다" />
+        android:text="정답은 (X) 영수증은 일반쓰레기로 배출해야 합니다"
+        android:textSize="15dp"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -59,26 +63,30 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/Quiz2PaperO"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="80dp"
             android:text="O"/>
 
         <Button
+            android:id="@+id/Quiz2PaperX"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="80dp"
             android:text="x"/>
     </LinearLayout>
 
-    <EditText
+    <TextView
+        android:id="@+id/Quiz2PaperAns"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="10dp"
         android:visibility="invisible"
-        android:text="정답은 (O) 종이팩은 종이류와 혼합되지 않게 묶어 수거함으로 배출해야 합니다." />
+        android:text="정답은 (O) 종이팩은 종이류와 혼합되지 않게 묶어 수거함으로 배출해야 합니다."
+        android:textSize="15dp"/>
 
 
 </LinearLayout>
